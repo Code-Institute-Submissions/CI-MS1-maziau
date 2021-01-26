@@ -13,71 +13,98 @@
 
 <body>
 
-        <header>
+    <header>
 
-            <!-- BOOTSTRAP 4 Navigation -->
-            <!-- <div class="container-fluid d-flex justify-content-center"> -->
-            <!-- YELLOW -->
-            <nav id="myNavigationBar"
-                class="navbar navbar-light bg-transparent
+        <!-- BOOTSTRAP 4 Navigation Bar -->
+
+        <!-- YELLOW -->
+        <nav id="myNavigationBar" class="navbar navbar-light bg-transparent
                 navbar-expand-sm
                 sticky-top d-flex justify-content-end">
 
-                <!-- RED -->
-                <a href="index.html" class="col-5 col-sm-4 col-lg-6 bg-danger
+            <!-- RED -->
+            <a href="index.html" class="col-6 col-sm-4 col-lg-6 bg-danger
                     navbar-brand mr-0">maziau.lt</a>
 
-                <!-- BUTTON  burger         -->
-                <button
-                    class="navbar-toggler ml-auto"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <!-- BUTTON  burger         -->
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <!-- END BUTTON    -->
+            <!-- END BUTTON    -->
 
-                <!-- GREEN -->
-                <div class="collapse text-nowrap col-6 col-sm-8 col-lg-6 ml-sm-0
-                    bg-success navbar-collapse"
-                    id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="active nav-link px-0 px-sm-1 px-md-1 mr-sm-2 mr-md-2 mx-lg-3" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="hvr-underline-from-left nav-link px-0 px-sm-0 px-md-1 px-lg-1 mr-sm-2 mr-md-2"
-                                href="#">Store</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="hvr-underline-from-left nav-link px-0 px-sm-1 px-md-1 mx-lg-3 mr-sm-2 mr-md-2"
-                                href="about.html">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="hvr-underline-from-left nav-link px-0 px-sm-0 px-md-1 px-lg-1 mr-sm-2 mr-md-2"
-                                href="#">Care</a>
-                        </li>
-                        <li class="nav-item">
-                                <a data-toggle="modal" class="hvr-underline-from-left nav-link px-0 px-sm-1 px-md-1 mx-lg-3 mr-sm-1 mr-md-2"
-                                href="#contact-us">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="language-switcher"
-                                class="hvr-underline-from-left nav-link px-0 px-sm-0 ml-sm-1 mx-lg-1 ml-xl-5"
-                                href="#">lt|en</a>
-                        </li>
+            <!-- GREEN -->
+            <div class="collapse text-nowrap col-6 col-sm-8 col-lg-6 ml-sm-0
+                    bg-success navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="active nav-link px-0 px-sm-1 px-md-1 mr-sm-2 mr-md-2 mx-lg-3"
+                            href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="hvr-underline-from-left nav-link px-0 px-sm-0 px-md-1 px-lg-1 mr-sm-2 mr-md-2"
+                            href="#">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="hvr-underline-from-left nav-link px-0 px-sm-1 px-md-1 mx-lg-3 mr-sm-2 mr-md-2"
+                            href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="hvr-underline-from-left nav-link px-0 px-sm-0 px-md-1 px-lg-1 mr-sm-2 mr-md-2"
+                            href="#">Care</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-toggle="modal"
+                            class="hvr-underline-from-left nav-link px-0 px-sm-1 px-md-1 mx-lg-3 mr-sm-1 mr-md-2"
+                            href="#contact-us">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="language-switcher"
+                            class="hvr-underline-from-left nav-link px-0 px-sm-0 ml-sm-1 mx-lg-1 ml-xl-5"
+                            href="#">lt|en</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- END BOOTSTRAP 4 Navigation  -->
+
+
+
+    <!-- MODAL END -->
+
+
+    <!-- Footer                 -->
+
+    <footer class="footer bg-white">
+        <div class="container">
+            <div class="row">
+
+                <div class="footer-container bg-info px-1 px-md-3 py-0 pb-md-2 col-12
+                        col-md-6 d-flex border order-2 order-md-1
+                        justify-content-center justify-content-md-start">
+                    <p><small>Made by Vilmantas Zaleckas©</small></p>
+                </div>
+
+
+                <div class="footer-container bg-primary px-1 px-md-3 py-0 pb-md-2 mx-0 col-12
+                        col-md-6 d-flex border order-1 order-md-2
+                        justify-content-center justify-content-md-end">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item"><a target="_blank" href="mailto:info@maziau.lt"><i
+                                    class="bi bi-envelope"></i><span class="sr-only">email</span></a></li>
+                        <li class="list-inline-item"><a target="_blank"
+                                href="https://www.facebook.com/Ma%C5%BEiault-102593061690547/"><i
+                                    class="bi bi-facebook"></i><span class="sr-only">facebook</span></a></li>
+                        <li class="list-inline-item"><a target="_blank"
+                                href="https://instagram.com/maziau.lt?igshid=f5iua0o9fls3"><i
+                                    class="bi bi-instagram"></i><span class="sr-only">instagram</span></a></li>
                     </ul>
                 </div>
-            </nav>
-        </header>
-        <!-- END BOOTSTRAP 4 Navigation  -->
-
-
-
+            </div>
+        </div>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
