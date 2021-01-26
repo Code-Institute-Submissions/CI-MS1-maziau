@@ -125,3 +125,15 @@ I would like to express special thank you to:
     Royalty-free stock photo ID: 1871880016
     - [Wrapped Celery](https://www.shutterstock.com/image-photo/organic-fabric-covers-food-storage-reusable-1871150038)
     Royalty-free stock photo ID: 1871150038
+
+
+    ### Technologies Used
+
+- HTML5
+- CSS 
+- Bootstrap 4
+- Bootstrap icons
+- Google Fonts
+- Hover.css by Ian Lunn Design (used NavBar interactive animations)
+- [Formspree](https://formspree.io/) - validating and receiving "Contact us" forms directly to email address.
+- 

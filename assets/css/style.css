@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+
+body {
+    font-size: 1rem;
+}
+
+/* NAVIGATION BAR */
+
+Navigation Bar
+.navbar-collapse {
+  text-align: end;
+  padding-left: 0;
+}
+
+.navbar-brand {
+    font-family: 'Raleway Dots', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+  }
+
+  /* Hover.css Navigation Bar Animations by Ian Lunn Design */
+
+  /* Underline From Left */
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #050505;
+    height: 1px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
+  }
+
+    ul li a.active {
+      border-bottom-width: 0.5px;
+      border-bottom-style: solid;
+      padding-left: 0;
+      margin-left: 0;
+  }
+
+  ul li a.nav-link {
+    padding-bottom: 0;
+  }
