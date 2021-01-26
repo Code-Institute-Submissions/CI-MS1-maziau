@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>maziau.lt | less is more</title>
+    <title>maziau.lt | beeswax wraps</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
@@ -78,10 +78,12 @@
                     carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="assets/images/avocado-green-background.jpg" class="d-block w-100" alt="hands wrapping avocado">
+                        <img src="assets/images/avocado-green-background.jpg" class="d-block w-100"
+                            alt="hands wrapping avocado">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/images/pear-green-background.jpg" class="d-block w-100" alt="pear with green background">
+                        <img src="assets/images/pear-green-background.jpg" class="d-block w-100"
+                            alt="pear with green background">
                     </div>
                     <div class="carousel-item">
                         <img src="assets/images/celery-green-background.jpg" class="d-block w-100"
@@ -108,6 +110,36 @@
     </main>
 
     <!-- Bootstrap MODAL - Contact Us -->
+
+    <div class="modal" id="contact-us" aria-labelledby="contact-usLabel" aria-hidden="true" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contact-usLabel">Contact us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form target="_blank" action="https://formspree.io/f/xbjpwzlb" method="POST">
+                        <input type="text" id="name" class="form-control" name="name" placeholder="Your Name" required>
+                        <input type="email" id="email" class="form-control" name="email" placeholder="Your Email"
+                            required>
+                        <textarea name="message" id="message" class="form-control" rows="7" placeholder="Your Message" required></textarea>
+                        <div class="modal-footer d-flex justify-content-center">
+                            <button type="submit" class="btn
+                                    btn-outline-info" data-toggle="modal">Send
+                            </button>
+                            <button type="button" class="btn
+                                    btn-outline-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 
     <!-- END MODAL  -->

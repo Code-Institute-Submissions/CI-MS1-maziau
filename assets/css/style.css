@@ -64,7 +64,13 @@ body {
     padding-bottom: 0;
   }
 
-  /* Fotter */
+/* Modal "Cotact us" */
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+/* Fotter */
 
 /* bootstrap sticky footer example  */
 
