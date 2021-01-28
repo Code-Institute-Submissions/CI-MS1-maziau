@@ -125,7 +125,15 @@ I would like to express special thank you to:
     Royalty-free stock photo ID: 1871880016
     - [Wrapped Celery](https://www.shutterstock.com/image-photo/organic-fabric-covers-food-storage-reusable-1871150038)
     Royalty-free stock photo ID: 1871150038
-
+- [FrimuFilms](https://www.shutterstock.com/g/FrimuFilms) for very representative and beautiful sandwitch wrapping picture.
+    - [Woman hands wrapping a healthy sandwich in beeswax food wrap](https://www.shutterstock.com/image-photo/woman-hands-wrapping-healthy-sandwich-beeswax-1593962761)
+    Royalty-free stock photo ID: 1593962761
+- [Fevziie](https://www.shutterstock.com/g/Fevziie) for their fantastic bread wrap, perfect for our project!
+    - [Reusable Beeswax Food Wraps](https://www.shutterstock.com/image-photo/reusable-beeswax-food-wraps-organic-fabric-1502197586)
+    Royalty-free stock photo ID: 1502197586
+- [Oksana Shufrych](https://www.shutterstock.com/g/oksix)
+    - [Ecological type of packing food to keep it fresh](https://www.shutterstock.com/image-photo/ecological-type-packing-food-keep-fresh-1836258310)
+    Royalty-free stock photo ID: 1836258310
 
     ### Technologies Used
 

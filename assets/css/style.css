@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap');
 
 body {
     font-size: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 /* Shared Styles for all pages */
@@ -160,4 +162,11 @@ color:rgba(75, 73, 73, 0.89)
 }
 
 
+}
+
+/* store.html & store-lt.html */
+
+div.store-images>img {
+    width: 90%;
+    border-radius: 10px;
 }
