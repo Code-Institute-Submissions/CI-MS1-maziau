@@ -195,7 +195,7 @@ margin-bottom: 20px;
 
 #youtube-container {
     width: 50%;
-    margin-top: 5%;     
+    margin-top: 2%;     
     margin-left: 25%;
 }
 
@@ -204,6 +204,8 @@ margin-bottom: 20px;
     padding-bottom: 56.25%;
     padding-top: 25px;
     height: 0;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 iframe.youtube-video {
@@ -214,4 +216,50 @@ iframe.youtube-video {
     height: 100%;
 }
 
+
 /* END Responsive Youtube embed by Thierry Koblentz */
+
+@media all and (max-width: 576px) {
+    #youtube-container {
+    width: 90%;
+    margin-top: 1%;     
+    margin-left: 5%;
+}
+
+}
+
+@media all and (min-width: 577px) and (max-width: 720px) {
+    #youtube-container {
+    width: 70%;
+    margin-top: 2%;     
+    margin-left: 15%;
+
+}
+
+}
+
+.care-instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.care-title {
+    font-size: 170%;
+    text-align: center;
+    margin: 25px auto 10px;
+
+}
+
+.horizontal-line {
+    width: 30%;
+    background-color: #22202091;
+    margin: 0 auto 0;
+}
+
+.care-list {
+    font-size: 1.2rem;
+    margin: 10px auto;
+
+}

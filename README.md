@@ -125,17 +125,22 @@ I would like to express special thank you to:
     Royalty-free stock photo ID: 1871880016
     - [Wrapped Celery](https://www.shutterstock.com/image-photo/organic-fabric-covers-food-storage-reusable-1871150038)
     Royalty-free stock photo ID: 1871150038
-- [FrimuFilms](https://www.shutterstock.com/g/FrimuFilms) for very representative and beautiful sandwitch wrapping picture.
+- [FrimuFilms](https://www.shutterstock.com/g/FrimuFilms) and [shutterstock.com](https://www.shutterstock.com) for very representative and beautiful sandwitch wrapping picture.
     - [Woman hands wrapping a healthy sandwich in beeswax food wrap](https://www.shutterstock.com/image-photo/woman-hands-wrapping-healthy-sandwich-beeswax-1593962761)
     Royalty-free stock photo ID: 1593962761
-- [Fevziie](https://www.shutterstock.com/g/Fevziie) for their fantastic bread wrap, perfect for our project!
+- [Fevziie](https://www.shutterstock.com/g/Fevziie) and [shutterstock.com](https://www.shutterstock.com) for their fantastic bread wrap, perfect for our project!
     - [Reusable Beeswax Food Wraps](https://www.shutterstock.com/image-photo/reusable-beeswax-food-wraps-organic-fabric-1502197586)
     Royalty-free stock photo ID: 1502197586
-- [Oksana Shufrych](https://www.shutterstock.com/g/oksix)
+- [Oksana Shufrych](https://www.shutterstock.com/g/oksix) and [shutterstock.com](https://www.shutterstock.com) for her war and high quality image of stacked containers.
     - [Ecological type of packing food to keep it fresh](https://www.shutterstock.com/image-photo/ecological-type-packing-food-keep-fresh-1836258310)
     Royalty-free stock photo ID: 1836258310
-
-    ### Technologies Used
+- [Hover.css by Ian Lunn Design](https://ianlunn.github.io/Hover/) - for very useful NavBar interactive animations
+- [Thierry Koblentz](https://alistapart.com/article/creating-intrinsic-ratios-for-video/) for helping me understand how to embed YouTube video and make it responsive!
+- [Crafty Patti](https://www.youtube.com/channel/UCWThSqSZojlTjokx_M-nVPA) for her video of care instructions. Which embeded iframes I have used under YouTube Terms of Services Section 6, Subsection C, 
+which grants each youtube user a non-exclusive license to access public content on youtube and to use, reproduce, distribute, display and perform content as permitted through the 
+functionality of youtube service. 
+    
+### Technologies Used
 
 - HTML5
 - CSS 
@@ -144,4 +149,3 @@ I would like to express special thank you to:
 - Google Fonts
 - Hover.css by Ian Lunn Design (used NavBar interactive animations)
 - [Formspree](https://formspree.io/) - validating and receiving "Contact us" forms directly to email address.
-- 
