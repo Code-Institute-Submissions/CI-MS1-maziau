@@ -72,6 +72,16 @@ body {
   margin-bottom: 20px;
 }
 
+/* Shared headers */
+.quotes {
+    font-size: 170%;
+    text-align: center;
+    margin: 25px auto 10px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+
 /* Fotter */
 
 /* bootstrap sticky footer example  */
@@ -169,13 +179,14 @@ color:rgba(75, 73, 73, 0.89)
 div.store-images>img {
     width: 90%;
     border-radius: 10px;
-    margin: 50px auto;
+    margin: 20% auto;
     display: flex block;
     justify-content: center;
 }
 
 div.store-images{
     text-align: center;
+
 }
 
 div.store-images>a.store-link{
@@ -188,7 +199,7 @@ margin-bottom: 20px;
 }
 
 
-/* store.html & store-lt.html */
+/* care.html & care-lt.html */
 
 /* Responsive Youtube embed by Thierry Koblentz https://alistapart.com/article/creating-intrinsic-ratios-for-video/  */
 /* with my djustments for maziau.lt care.html & care-lt.html  */
@@ -245,13 +256,6 @@ iframe.youtube-video {
     
 }
 
-.care-title {
-    font-size: 170%;
-    text-align: center;
-    margin: 25px auto 10px;
-
-}
-
 .horizontal-line {
     width: 30%;
     background-color: #22202091;
@@ -261,5 +265,35 @@ iframe.youtube-video {
 .care-list {
     font-size: 1.2rem;
     margin: 10px auto;
+
+}
+
+
+/* ????????????? */
+.store-content {
+    margin: auto 2%;
+
+}
+
+@media all and (max-width: 992px) {
+   .store-content {
+    margin: auto 0;
+    }
+
+    div.store-images>img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 25% 0;
+    display: flex block;
+    justify-content: center;
+}
+
+}
+
+@media all and (max-width: 768px) {
+
+    div.store-images>img {
+    margin: 1% 0;
+}
 
 }
