@@ -153,7 +153,7 @@ color:rgba(75, 73, 73, 0.89)
   
 }
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 768px) {
 .picture-girls img[alt="girl sitting"] {
   margin: 10px -20px;
   
@@ -196,6 +196,34 @@ margin-bottom: 20px;
 .store-link>i.bi.bi-basket::before {
     padding-bottom: 5px;
     margin-right: 7px;
+}
+
+.store-content {
+    margin: auto 2%;
+
+}
+
+@media all and (max-width: 992px) {
+   .store-content {
+    margin: auto 0;
+    }
+
+    div.store-images>img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 25% 0;
+    display: flex block;
+    justify-content: center;
+}
+
+}
+
+@media all and (max-width: 768px) {
+
+    div.store-images>img {
+    margin: 1% 0;
+}
+
 }
 
 
@@ -270,30 +298,3 @@ iframe.youtube-video {
 
 
 /* ????????????? */
-.store-content {
-    margin: auto 2%;
-
-}
-
-@media all and (max-width: 992px) {
-   .store-content {
-    margin: auto 0;
-    }
-
-    div.store-images>img {
-    width: 100%;
-    border-radius: 10px;
-    margin: 25% 0;
-    display: flex block;
-    justify-content: center;
-}
-
-}
-
-@media all and (max-width: 768px) {
-
-    div.store-images>img {
-    margin: 1% 0;
-}
-
-}
