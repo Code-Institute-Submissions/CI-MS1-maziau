@@ -186,3 +186,32 @@ margin-bottom: 20px;
     padding-bottom: 5px;
     margin-right: 7px;
 }
+
+
+/* store.html & store-lt.html */
+
+/* Responsive Youtube embed by Thierry Koblentz https://alistapart.com/article/creating-intrinsic-ratios-for-video/  */
+/* with my djustments for maziau.lt care.html & care-lt.html  */
+
+#youtube-container {
+    width: 50%;
+    margin-top: 5%;     
+    margin-left: 25%;
+}
+
+.youtube-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+iframe.youtube-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* END Responsive Youtube embed by Thierry Koblentz */
