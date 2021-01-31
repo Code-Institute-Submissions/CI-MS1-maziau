@@ -19,8 +19,10 @@ down to earth website name and authors approach to community and life.
  - [Mobile](#mobile)
  - [Tablet](#tablet)
  - [Desktop](#desktop)
+- [Design](#design)
 - [Wireframes](#wireframes)
 - [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
 - [Credits](#credits)
 
 ## Strategy 
@@ -98,6 +100,35 @@ on the right-hand side of the navigation bar.
 * ***Care*** - YouTube video tutorial with lists of caring steps listed below.
 * ***Contact*** - pop up window available in any page with Name, Email, Message and Submit button. Close button on the top right corner. "Thank you" message on submit.
 
+## Design
+
+### Logo
+
+A brand logo is a very important aspect of business representation, as a main experience of user has to be minimal and light for the mind and the eye, a decision was made 
+not to use any graphical images to represent the business, instead just the short website name 'maziau.lt' is used as the brand.
+
+### Colours
+
+To represent the minimal feel and screen cleanliness most basic colour pallet has been chosen, to the absolute core of colour palette- Black & White.
+It is a very important feature, as the product will be used with customers food, it will be wrapped in it and has to leave an impression of cleanliness and sterility. 
+
+### Images
+
+Due to the colour choice, the only element which will stand out and play with users eyes is the image. It has to be colourful, but the same time not overwhelming with its contents.
+To keep the connection with the idea of minimal website, simple and colourful images has been selected and has no other background, except colour, product or the touch of the hands interacting with it.
+
+### Typography
+
+It's not an easy task to choose one type of font to be used, but a couple of main criteria allowed to narrow down selection just to a couple of fonts out of all available with Google Fonts.
+Font choice has to have these features:
+* Comfortable to read.
+* Be close to conventional fonts, but not very usual.
+* Be playful in the most subtle way with slightly rounded corners, but not typical conventional.
+* Not confuse the user with multiple different fonts.
+* Have Lithuanian symbols available, to write Creators names: Ūla and Viltė without errors.
+* Have Lithuanian symbols for adding language choice to the website, without having to change typography in the future.
+
+
 ## Wireframes
 
 #### Homepage
@@ -122,7 +153,7 @@ on the right-hand side of the navigation bar.
 
 *Full wireframes in .pdf format, please click [here](assets/wireframes/wireframes-maziau-all.pdf)* 
 
-### Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS 
@@ -138,11 +169,11 @@ on the right-hand side of the navigation bar.
 - [favicon.io](https://favicon.io/) - Favicon generator to create favicon and make it compatible with different browsers.
 - 
 
-### Deplyment
+## Deployment
 
 This project has been developed using GitPod and pushed to GitHub Repository.
 
-#### GitHub Pages
+### GitHub Pages
 
 If you would like to deploy this page from GitHub, please follow these steps:
 
@@ -156,7 +187,7 @@ If you would like to deploy this page from GitHub, please follow these steps:
 8. After page automatically refreshes, scroll back to 'GitHub Pages' section.
 9. Publishing link for the site will be available.
 
-#### Locally
+### Locally
 
 1. Log in to your GitHub account.
 2. Find user 'niekados' and open 'CI-MS1-maziau' repository on the main page or just follow this link [maziau](https://github.com/niekados/CI-MS1-maziau).
@@ -169,7 +200,7 @@ If you would like to deploy this page from GitHub, please follow these steps:
   - Download ZIP file
   - Github CLI, copy command line to your terminal.  
 
-### Credits
+## Credits
 
 I would like to express a special thank you to:
 - Code Institute for providing all learning material, creating the greatest community and opportunity for me to grow!
