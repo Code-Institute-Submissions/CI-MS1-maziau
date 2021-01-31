@@ -42,7 +42,7 @@ body {
     position: relative;
     overflow: hidden;
   }
-  .hvr-underline-from-left:before {
+.hvr-underline-from-left:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -61,19 +61,19 @@ body {
     -o-transition-timing-function: ease-out;
        transition-timing-function: ease-out;
   }
-  .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
     right: 0;
   }
     /* END hover.css */
 
-    ul li a.active {
+ul li a.active {
       border-bottom-width: 0.5px;
       border-bottom-style: solid;
       padding-left: 0;
       margin-left: 0;
   }
 
-  ul li a.nav-link {
+ul li a.nav-link {
     padding-bottom: 0;
   }
 
@@ -101,10 +101,10 @@ html {
     position: relative;
     min-height: 100%;
   }
-  body {
+body {
     margin-bottom: 70px; /* Margin bottom by footer height */
   }
-  .footer {
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -164,7 +164,7 @@ color:rgba(75, 73, 73, 0.89)
   
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
 .picture-girls img[alt="girl sitting"] {
   margin: 10px -20px;
   
@@ -193,8 +193,8 @@ div.store-images>img {
     margin: 20% auto;
     display: flex block;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 div.store-images{
