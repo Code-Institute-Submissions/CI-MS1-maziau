@@ -12,6 +12,21 @@ plastic will be thrown out. The word less translates to *maziau* in Lithuanian a
 which should be minimal and have less clutter for the users eyes on screen. Even the name starts with lowercase, to present that idea of minimalism, giving a simple, 
 down to earth website name.
 
+## Index
+
+- [Strategy](#strategy)
+- [Scope](#scope)
+- [Structure](#structure)
+    - [Mobile](#mobile)
+    - [Tablet](#tablet)
+    - [Desktop](#desktop)
+- [Wireframes](#wireframes)
+- [User Stories](#user-stories)
+- [Credits](#credits)
+- [Technologies Used](#technologies-used)
+
+
+
 ## Strategy 
 * Eliminate expenses of running the physical shop by setting up an online store.
 * Increase sales by reaching a wider audience of customers 
@@ -139,6 +154,7 @@ I would like to express special thank you to:
 - [Crafty Patti](https://www.youtube.com/channel/UCWThSqSZojlTjokx_M-nVPA) for her video of care instructions. Which embeded iframes I have used under YouTube Terms of Services Section 6, Subsection C, 
 which grants each youtube user a non-exclusive license to access public content on youtube and to use, reproduce, distribute, display and perform content as permitted through the 
 functionality of youtube service. 
+- Girl images for "About Us" page used from Vilte and Ula personal photo album with their permision.
     
 ### Technologies Used
 
@@ -149,3 +165,4 @@ functionality of youtube service.
 - Google Fonts
 - Hover.css by Ian Lunn Design (used NavBar interactive animations)
 - [Formspree](https://formspree.io/) - validating and receiving "Contact us" forms directly to email address.
+- [favicon.io](https://favicon.io/) - Favicon generator to create favicon and make in compatible with different browsers.
