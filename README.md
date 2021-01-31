@@ -106,6 +106,7 @@ on the right-hand side of the navigation bar.
 
 A brand logo is a very important aspect of business representation, as a main experience of user has to be minimal and light for the mind and the eye, a decision was made 
 not to use any graphical images to represent the business, instead just the short website name 'maziau.lt' is used as the brand.
+The best choice was a very light, unusual, but easily readable font from 'google fonts'- Raleway Dots (Designed by Multiple Designers).
 
 ### Colours
 
@@ -127,7 +128,7 @@ Font choice has to have these features:
 * Not confuse the user with multiple different fonts.
 * Have Lithuanian symbols available, to write Creators names: Ūla and Viltė without errors.
 * Have Lithuanian symbols for adding language choice to the website, without having to change typography in the future.
-
+Best font matching the criteria was 'Red Hat Display' Designed by MCKL and available on 'google fonts'.
 
 ## Wireframes
 
@@ -155,19 +156,19 @@ Font choice has to have these features:
 
 ## Technologies Used
 
-- HTML5
-- CSS 
-- GitHub
-- GitPod
-- Bootstrap 4
-- Bootstrap icons
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS) 
+- [GitHub](https://github.com) 
+- [GitPod](https://www.gitpod.io)
+- [Bootstrap library](https://getbootstrap.com) 
+- [Bootstrap icons](https://icons.getbootstrap.com)
 - Balsamiq - for wireframes creation.
-- Google Fonts
+- [Google Fonts](https://fonts.google.com)
 - Mac Os Preview - for scalling and edditing images.
-- Hover.css by Ian Lunn Design (used NavBar interactive animations)
+- [Hover.css](https://ianlunn.github.io/Hover/) by Ian Lunn Design (used NavBar interactive animations)
 - [Formspree](https://formspree.io/) - validating and receiving "Contact us" forms directly to email address.
 - [favicon.io](https://favicon.io/) - Favicon generator to create favicon and make it compatible with different browsers.
-- 
+- [Autoprefixer](https://autoprefixer.github.io/) - parses CSS and adds vendor prefixes to CSS rules.
 
 ## Deployment
 
@@ -224,4 +225,5 @@ I would like to express a special thank you to:
 - [Thierry Koblentz](https://alistapart.com/article/creating-intrinsic-ratios-for-video/) for helping me understand how to embed YouTube video and make it responsive!
 - [Crafty Patti](https://www.youtube.com/channel/UCWThSqSZojlTjokx_M-nVPA) for her video of care instructions. Which embedded iframes I have used under YouTube Terms of Services Section 6, Subsection C, which grants each youtube user a non-exclusive license to access the public content on youtube and to use, reproduce, distribute, display and perform content as permitted through the functionality of youtube service. 
 - Girl images for "About Us" page used from Vilte and Ula personal photo album with their permission.
+- [Bootstrap library](https://getbootstrap.com)- for providing templates of [Navbar](https://getbootstrap.com/docs/4.6/components/navbar/), [Carousel](https://getbootstrap.com/docs/4.6/components/carousel/), [Modal](https://getbootstrap.com/docs/4.6/components/modal/), [Sticky footer](https://getbootstrap.com/docs/4.6/examples/sticky-footer/). 
  

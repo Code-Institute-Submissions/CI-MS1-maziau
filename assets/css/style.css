@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap');
 
@@ -30,7 +37,8 @@ body {
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     overflow: hidden;
   }
@@ -44,11 +52,14 @@ body {
     background: #050505;
     height: 1px;
     -webkit-transition-property: right;
+    -o-transition-property: right;
     transition-property: right;
     -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+       transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+       transition-timing-function: ease-out;
   }
   .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
     right: 0;
@@ -123,7 +134,7 @@ color:rgba(75, 73, 73, 0.89)
 
 
 
-/* index.html & index-lt.html only */
+/* index.html */
 
 /* carousel  */
 
@@ -134,7 +145,7 @@ color:rgba(75, 73, 73, 0.89)
   overflow: hidden;
 }
 
-/* about.html & about-lt.html */
+/* about.html */
 
 .picture-girls img {
   width: 100%;
@@ -174,14 +185,16 @@ color:rgba(75, 73, 73, 0.89)
 
 }
 
-/* store.html & store-lt.html */
+/* store.html */
 
 div.store-images>img {
     width: 90%;
     border-radius: 10px;
     margin: 20% auto;
     display: flex block;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 div.store-images{
@@ -213,7 +226,9 @@ margin-bottom: 20px;
     border-radius: 10px;
     margin: 25% 0;
     display: flex block;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 }
@@ -227,7 +242,7 @@ margin-bottom: 20px;
 }
 
 
-/* care.html & care-lt.html */
+/* care.html */
 
 /* Responsive Youtube embed by Thierry Koblentz https://alistapart.com/article/creating-intrinsic-ratios-for-video/  */
 /* with my djustments for maziau.lt care.html & care-lt.html  */
@@ -278,9 +293,16 @@ iframe.youtube-video {
 }
 
 .care-instructions {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     
 }
 
@@ -297,4 +319,3 @@ iframe.youtube-video {
 }
 
 
-/* ????????????? */
