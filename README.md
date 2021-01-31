@@ -19,6 +19,7 @@ down to earth website name and authors approach to community and life.
  - [Mobile](#mobile)
  - [Tablet](#tablet)
  - [Desktop](#desktop)
+- [Features](#features)
 - [Design](#design)
 - [Wireframes](#wireframes)
 - [Technologies Used](#technologies-used)
@@ -99,6 +100,50 @@ on the right-hand side of the navigation bar.
 * ***About Us*** - a story of two friends and their idea of beeswax wraps with two creators pictures on the right-hand side (circle shape). 
 * ***Care*** - YouTube video tutorial with lists of caring steps listed below.
 * ***Contact*** - pop up window available in any page with Name, Email, Message and Submit button. Close button on the top right corner. "Thank you" message on submit.
+
+## Features
+
+### Implemented
+
+#### Shared elements between all pages
+* Navigation Bar with 'maziau.lt' logo on the left-hand side and navigation links on the right-hand side, which will travel closer to the logo when screen is scalled down. 
+Navigation Bar will collapse on mobile view to 'burger drop-down menu', but still keeping logo on the left-hand side.
+* Footer with webside designers name on the left-hand side (little bit away from the page edge, due to small text design which his made on purpouse-  not to distract user from clean and minimalistic view, 
+but at same time being available if anyone is looking for author. Social links and mail link on the right-hand side (little bit away from the page edge, due to smaller icons, not to overhelm minimal design, 
+at the same time icons stand out as there is a lot of white, clean space. On mobile screen, both elements center and social links displayed on top of authors name.
+* Contact Us - is in a form of pop-up modal, which is available in every page, it will pop-up and close, without taking user from content they were viewing at that moment.
+This feature is to create an impresiion, that we are alway availble to help if you have any questions. Modal has Name, Email and Message fields, together with Send and Close buttons, also an 'X' close button on top 
+right corner for users who are intuitevile seeking 'X' to close. Modal is linked to [Formspree](https://formspree.io/) which on submit will open Thanks! message in new window (limitation due to free version and removed if bought a premium version) 
+and send all form details to email address linked to it.
+
+### Homepage
+
+* Has large and bright image carousel, which is a main center pice for first visitor it centers attention, but due to minimal Black & White designe leaves clear sight of Navigation Bar and Footer.
+* Quote, located under the image carousel, not to give an impression of regular article design with Header follwed by Content, it's more of a playfull invatation to explore and at same time it's visible and due to minimal design.
+* Store button, to allow user discover beeswax products, without having to move their look and try to find it in Navigation Bar. It is an invatation!
+
+### Store Page
+
+* Playful quote placed at the top, due to delicate 'buy' buttons design, which conventionaly are location under the product images. 
+This way we are avoiding overhelming impression of too many things living in one part of the screen, balancing out the text on the screen, with images staying again in the center.
+* 3 images located at the center, to keep users attention at the usual as Hompeage location on the screen. Images has short, and subtle descriptions, followed by 'buy' buttons at the bottom.
+Desktop view is arranged horizontally, where mobile view changes to vertical positioning, to present larger pictures on a small screen.
+
+### About Us page
+
+This page has text on the left and girls pictures on the right in desktop mode, to show user that the stroy and images are same important and they share center space and compliments each other.
+On a mobile view due to small screen size, the pictures are shown at the top, followed by invatation to "Meet us..." and read our story below.
+* Story is short and simple, atempting to make a connection with user and have a brief intoduction and explaining the idea behind.
+* Pictures of two girls are represented in circle shape, slightly overlaping creating impression of friends standing side by side. On mobile they are on same level in X axis, where on Desktop view it also has y axis level difference.
+
+### Care Page
+
+Very important to let user know how to care about their product, letting them know that we also care that their product will last.
+* Youtube video. What else would explain better how to care for your item, than a video tutorial, which again is a center pice located at the center of the screen and it maintains it's location on Desktop and  Mobile views.
+* Care instructions displayed as ordered list, for a quick glance in case you don't want or not sure if you want to watch the video. It will keep its location in the center under the video on Desktop and Mobile.  
+
+
+### Enchansments For Future
 
 ## Design
 
