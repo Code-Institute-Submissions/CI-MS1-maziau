@@ -231,7 +231,7 @@ This project has been developed using GitPod and pushed to GitHub Repository.
 
 If you would like to deploy this page from GitHub, please follow these steps:
 
-1. Go to [GitHub])(https://github.com)
+1. Go to [GitHub](https://github.com)
 2. Log into the user account.
 3. Click on 'CI-MS1-maziau' repository.
 4. Click the 'Settings' tab.
