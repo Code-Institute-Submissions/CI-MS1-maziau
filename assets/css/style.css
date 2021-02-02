@@ -64,7 +64,7 @@ body {
 .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
     right: 0;
   }
-    /* END hover.css */
+/* END hover.css */
 
 ul li a.active {
       border-bottom-width: 0.5px;
@@ -92,7 +92,6 @@ ul li a.nav-link {
     font-weight: 300;
 }
 
-
 /* Fotter */
 
 /* bootstrap sticky footer example  */
@@ -102,14 +101,14 @@ html {
     min-height: 100%;
   }
 body {
-    margin-bottom: 70px; /* Margin bottom by footer height */
+    margin-bottom: 70px; 
   }
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60px; /* Set the fixed height of the footer here  (was 60px)*/
-    line-height: 40px; /* Vertically center the text there (was 60px) */
+    height: 60px; 
+    line-height: 40px; 
     background-color: #f5f5f5;
   }
 
@@ -131,8 +130,6 @@ body {
 .social-links li a i:hover {
 color:rgba(75, 73, 73, 0.89)
 }
-
-
 
 /* index.html */
 
@@ -263,7 +260,7 @@ main.store-content h2.store-quotes {
 /* care.html */
 
 /* Responsive Youtube embed by Thierry Koblentz https://alistapart.com/article/creating-intrinsic-ratios-for-video/  */
-/* with my djustments for maziau.lt care.html & care-lt.html  */
+/* with my djustments for maziau.lt care.html */
 
 #youtube-container {
     width: 50%;
@@ -287,8 +284,6 @@ iframe.youtube-video {
     width: 100%;
     height: 100%;
 }
-
-
 /* END Responsive Youtube embed by Thierry Koblentz */
 
 /* Fix iframe frameborder in care.html, as frameborder on W3C Markup Validator comes as obsolete. Removed from care.html, replaced it with css style. */

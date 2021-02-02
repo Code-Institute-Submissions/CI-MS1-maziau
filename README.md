@@ -298,7 +298,7 @@ I would like to express a special thank you to:
  
 ## Testing
 
-Html Code has been tested for each individual page with [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/):
+HTML Code has been tested for each individual page with [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/):
 
 ### Homepage
 ![index.html](assets/testing/w3c-index.png)
@@ -342,36 +342,40 @@ The testing file can be downloaded and viewed [HERE](assets/testing/testing.xlsx
 
 ##### First time visitor:
 
-![Homepage](assets/testing/mockup-index.html)
+![Homepage](assets/testing/mockup-index.png)
 * I'd like to easily navigate the website, find and buy beeswax products.
- * Website Structure is simply laid out in easy to understand form:
- * Homepage - Store - About Us - Care - Contact Us
- * Social links located at the bottom of the page.
- * Store button on Homepage to easily navigate to store page without any distractions.
- * Simple product description with images and Buy button bellow. 
+    * Website Structure is simply laid out in easy to understand form:
+    * Homepage - Store - About Us - Care - Contact Us
+    * Social links located at the bottom of the page.
+    * Store button on Homepage to easily navigate to store page without any distractions.
+    * Simple product description with images and Buy button bellow. 
+
 ![Store](assets/testing/mockup-store.png)
 * I'd like to see how the products look.
- * Large image Carousel visible on the homepage.
- * Each different item has images on Store Page. 
+    * Large image Carousel visible on the homepage.
+    * Each different item has images on Store Page. 
+
 ![Care](assets/testing/mockup-care.png)
 * I'd like to know how to care about my products.
- * Navigation bar has a link to Care Page.
- * Care instructions presented in Youtube video with easy steps to follow.
- * Ordered list clearly and simply presented on Care page. 
+    * Navigation bar has a link to Care Page.
+    * Care instructions presented in Youtube video with easy steps to follow.
+    * Ordered list clearly and simply presented on Care page. 
+
 ![About Us](assets/testing/mockup-about.png)
 * I'd like to know the background story of the store.
- * About Us link available on Navigation Bar.
- * Creators story and pictures are on About Us page. 
+    * About Us link available on Navigation Bar.
+    * Creators story and pictures are on About Us page. 
+
 ![Contact Us](assets/testing/mockup-contact.png)
 * I'd like to contact the business.
- * Contact Us pop up Modal form is available on every page in Navigation Bar.
- * Email and Social Links are available on every page in the footer. 
+    * Contact Us pop up Modal form is available on every page in Navigation Bar.
+    * Email and Social Links are available on every page in the footer. 
 
 ##### Returning visitor:
 * I'd like to easily purchase the product again.
- * Store Button is located in the middle of Homepage.
- * Store button located in Navigation Bar.
+    * Store Button is located in the middle of Homepage.
+    * Store button located in Navigation Bar.
 * I forgot how should I care for the product and like to see care instructions.
- * Care Instructions Located in Navigation Bar.
+    * Care Instructions Located in Navigation Bar.
 * I like the product and would like to follow the store on social media.
- * Social Links located in the footer.
+    * Social Links located in the footer.
