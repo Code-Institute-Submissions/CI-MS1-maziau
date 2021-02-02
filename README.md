@@ -48,7 +48,6 @@ down to earth website name and authors approach to community and life.
  1. Sandwich Wrap (Smallest one)
  2. Bread Wrap (Largest one)
  3. Multiset of 3 wraps (2 round-shaped wraps & 1 square-shaped wrap)
-* Present website in two languages (English and Lithuanian) to target English and Lithuanian spoken customers.
 * Have "About Us" page to introduce creators and establish more personal connection with the user, tell makers story and show genuine dedication to handcraft.
 * Have "Contact Us" section for people and community to get in touch with product questions, postage inquiries, share experiences and feedback or ask for advice and support.
 * Have section with care instructions for customers to improve the experience and prolong the life span of their wraps. Showing that *maziau* is oriented in the best quality and long use of their products. Present it in form of video tutorial and written step by step guidance.
@@ -86,7 +85,7 @@ the business can be changed to their online store without external selling platf
 
 ### Mobile 
 * Minimalistic appearance.
-* ***Navigation*** - located on the top of the browser window with logo on the right-hand side and hamburger menu with drop-down links for Home, Shop, About Us, Care, Contact and language selection.
+* ***Navigation*** - located on the top of the browser window with logo on the right-hand side and hamburger menu with drop-down links for Home, Shop, About Us, Care and Contact.
 * ***Footer*** - Email, Facebook, Instagram link icons centered.
 * ***Shop*** - 3 images of different products, aligned vertically.
 * ***About Us*** - a story of two friends and their idea of beeswax wraps with two creators pictures on the top (circle shape).
@@ -96,10 +95,9 @@ the business can be changed to their online store without external selling platf
 ### Tablet
 * Minimalistic appearance.
 * ***Navigation*** Simple top navigation bar with logo on the left-hand side, navigation links centred on the screen, written from left to right: fixed to the top of the browser window. 
-Language selection on the right-hand side of the navigation bar.
 * ***Footer*** - on the right side: Email, Facebook, Instagram link icons and left side: copyright.
 * Information presented with none or minimal scrolling.
-* ***Index*** - page with a bright Hero image, quote under it and shop link.
+* ***Index*** - page with a bright image, quote under it and shop link.
 * ***Shop*** - 3 images horizontally representing 3 different products. Short description and size bellow with a buy link.
 * ***About Us*** - a story of two friends and their idea of beeswax wraps with two creators pictures on the right-hand side (circle shape). 
 * ***Care*** - YouTube video tutorial with lists of caring steps listed below.
@@ -107,11 +105,10 @@ Language selection on the right-hand side of the navigation bar.
 
 ### Desktop
 * Minimalistic appearance.
-* ***Navigation*** Simple top navigation bar with logo on the left-hand side, navigation links from left to right: fixed to the top of the browser window. Language selection 
-on the right-hand side of the navigation bar.
+* ***Navigation*** Simple top navigation bar with logo on the left-hand side, navigation links from left to right: fixed to the top of the browser window.
 * ***Footer*** - on the right side: Email, Facebook, Instagram link icons and left side: copyright.
 * Information presented with none or minimal scrolling.
-* ***Index*** - page with a bright Hero image, quote under it and shop link.
+* ***Index*** - page with a bright image, quote under it and shop link.
 * ***Shop*** - 3 images horizontally representing 3 different products. Short description and size bellow with a buy link.
 * ***About Us*** - a story of two friends and their idea of beeswax wraps with two creators pictures on the right-hand side (circle shape). 
 * ***Care*** - YouTube video tutorial with lists of caring steps listed below.
@@ -124,11 +121,11 @@ on the right-hand side of the navigation bar.
 #### Shared elements between all pages
 * Navigation Bar with 'maziau.lt' logo on the left-hand side and navigation links on the right-hand side, which will travel closer to the logo when the screen is scaled down. 
 Navigation Bar will collapse on the Mobile view to 'burger drop-down menu', but still keeping logo on the left-hand side.
-* Footer with website designers name on the left-hand side (a little bit away from the page edge, due to small text design which his made on purpose- not to distract the user from clean and minimalistic view, 
+* Footer with website designers name on the left-hand side (a little bit away from the page edge, due to small text design which is made on purpose- not to distract the user from clean and minimalistic view, 
 but at the same time is available if anyone is looking for an author. Social links and mail link on the right-hand side (a little bit away from the page edge, due to smaller icons, not to overwhelm minimal design, 
 at the same time icons stand out as there is a lot of white, clean space. On a Mobile screen, both elements centre and social links displayed on top of the author's name.
 * Contact Us - is in a form of the pop-up modal, which is available in every page, it will pop-up and close, without taking the user from the content they were viewing at that moment.
-This feature is to create an impression, that we are always available to help if you have any questions. Modal has Name, Email and Message fields, together with Send and Close buttons, also an 'X' close button on the top right corner for users who are intuitively seeking 'X' to close. Modal is linked to [Formspree](https://formspree.io/) which on submit will open Thanks! message in a new window (limitation due to free version and removed if bought a premium version) 
+This feature is to create an impression, that we are always available to help if you have any questions. Modal has Name, Email and Message fields, together with Send and Close buttons, also an 'X' close button on the top right corner for users who are intuitively seeking 'X' to close. Modal is linked to [Formspree](https://formspree.io/) which on submit will open Thanks! message in a new window (limitation due to free version and can be removed if bought a premium version) 
 and send all form details to the email address linked to it.
 
 ### Homepage
@@ -335,7 +332,7 @@ This has been addressed.
 
 ### Website Testing
 
-Full website testing available in the excel sheet, which is best viewed with Microsoft Excel, it can be also viewed with google docs, Apple Numbers, Open Office or Libre Office.
+Full website testing available in the excel sheet, which is best viewed with Microsoft Excel, it can be also viewed with Google docs, Apple Numbers, Open Office or Libre Office.
 The testing file can be downloaded and viewed [HERE](assets/testing/testing.xlsx).
 
 ### User Stories Testing
@@ -379,3 +376,10 @@ The testing file can be downloaded and viewed [HERE](assets/testing/testing.xlsx
     * Care Instructions Located in Navigation Bar.
 * I like the product and would like to follow the store on social media.
     * Social Links located in the footer.
+
+
+I would like to thank you for your patience and time reading through all the documentation!
+Hope you discovered, learned or at least enjoyed the project.
+
+Sincerely,
+Vilmantas Zaleckas.
