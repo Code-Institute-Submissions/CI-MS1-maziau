@@ -25,6 +25,7 @@ down to earth website name and authors approach to community and life.
 - [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
 - [Credits](#credits)
+- [Testing](#testing)
 
 ## Strategy 
 * Eliminate expenses of running the physical shop by setting up an online store.
@@ -65,6 +66,11 @@ the business can be changed to their online store without external selling platf
 * I am budget concerned person and looking for a solution to reduce my daily expenses.
 * I am a person who is using beeswax wraps and looking to update my inventory with new products which would have the best price and quality balance.
 * I am a person looking for an ergonomic solution, as my lunch box takes too much space in my bag.
+
+### User Goals
+
+##### First time visit:
+
 
 ## Structure 
 
@@ -225,7 +231,7 @@ Best font matching the criteria was 'Red Hat Display' Designed by MCKL and avail
 
 ## Deployment
 
-This project has been developed using GitPod and pushed to GitHub Repository.
+This project has been developed using GitPod and pushed to GitHub Repository:
 
 #### GitHub Pages
 
@@ -280,3 +286,44 @@ I would like to express a special thank you to:
 - Girl images for "About Us" page used from Vilte and Ula personal photo album with their permission.
 - [Bootstrap library](https://getbootstrap.com)- for providing templates of [Navbar](https://getbootstrap.com/docs/4.6/components/navbar/), [Carousel](https://getbootstrap.com/docs/4.6/components/carousel/), [Modal](https://getbootstrap.com/docs/4.6/components/modal/), [Sticky footer](https://getbootstrap.com/docs/4.6/examples/sticky-footer/). 
  
+## Testing
+
+Html Code has been tested for each individual page with [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/):
+
+### Homepage
+![index.html](assets/testing/w3c-index.png)
+
+### Store Page
+![store.html](assets/testing/w3c-store.png)
+
+### About Us Page
+![about.html](assets/testing/w3c-about.png)
+
+### Care Page
+![care.html](assets/testing/w3c-care.png)
+
+* care.html had an error. iframes embed from youtube had 'formboder' defined, which is absolete in HTML5, this has been fixed by removing it and replacing with CSS code.
+
+### style.css
+![style.css](assets/testing/w3c-css.png)
+
+
+## Modal Form Submission data
+
+Tested by filling out Modal form and submiting it, this was delivered and confirmed to email address with no errors.
+
+![Modal Form](assets/testing/formspree.png)
+
+### Lighthouse 
+
+Tested with Chrome developer tool Lighthouse.
+
+* Homepage had preformance issue, but it is due to bootstrap library beeing large.
+* Most performance issues on the remaining pages were linked to bootstarp library.
+* All pages External Social Links and Store Page links to www.Shopify.com had suggestion for ``rel="noreferrer"`` to be added to ``<a>`` link.
+This has been addressed.
+
+### Website Testing
+
+Full website testing available in excel sheet, which is best viewed with Microsoft Excel, it can be also viewed with google docs, Apple Numbers, Open Office or Libre Office.
+Testing file can be viewed or downloaded [HERE](assets/testing/testing.xlsx).
