@@ -291,7 +291,7 @@ iframe.youtube-video {
 
 /* END Responsive Youtube embed by Thierry Koblentz */
 
-/* Fix iframe frameborder in care.html, as frameborder on W3C Markup Validator comes as absolete. Removed from care.html, raplced it with css style. */
+/* Fix iframe frameborder in care.html, as frameborder on W3C Markup Validator comes as obsolete. Removed from care.html, replaced it with css style. */
 iframe.youtube-video {
     border: 0;
 }

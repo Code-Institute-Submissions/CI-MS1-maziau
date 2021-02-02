@@ -69,8 +69,18 @@ the business can be changed to their online store without external selling platf
 
 ### User Goals
 
-##### First time visit:
+##### First time visitor:
 
+* I'd like to easily navigate the website, find and buy beeswax products.
+* I'd like to see how the products look.
+* I'd like to know how to care about my products.
+* I'd like to know the background story of the store.
+* I'd like to contact the business.
+
+##### Returning visitor:
+* I'd like to easily purchase the product again.
+* I forgot how should I care for the product and like to see care instructions.
+* I like the product and would like to follow the store on social media.
 
 ## Structure 
 
@@ -302,7 +312,7 @@ Html Code has been tested for each individual page with [W3C Markup Validator](h
 ### Care Page
 ![care.html](assets/testing/w3c-care.png)
 
-* care.html had an error. iframes embed from youtube had 'formboder' defined, which is absolete in HTML5, this has been fixed by removing it and replacing with CSS code.
+* care.html had an error. iframes embed from youtube had 'formborder' defined, which is obsolete in HTML5, this has been fixed by removing it and replacing with CSS code.
 
 ### style.css
 ![style.css](assets/testing/w3c-css.png)
@@ -310,7 +320,7 @@ Html Code has been tested for each individual page with [W3C Markup Validator](h
 
 ## Modal Form Submission data
 
-Tested by filling out Modal form and submiting it, this was delivered and confirmed to email address with no errors.
+Tested by filling out Modal form and submitting it, this was delivered and confirmed to an email address with no errors.
 
 ![Modal Form](assets/testing/formspree.png)
 
@@ -318,12 +328,50 @@ Tested by filling out Modal form and submiting it, this was delivered and confir
 
 Tested with Chrome developer tool Lighthouse.
 
-* Homepage had preformance issue, but it is due to bootstrap library beeing large.
+* Homepage had performance issue, but it is due to bootstrap library being large.
 * Most performance issues on the remaining pages were linked to bootstarp library.
-* All pages External Social Links and Store Page links to www.Shopify.com had suggestion for ``rel="noreferrer"`` to be added to ``<a>`` link.
+* All pages External Social Links and Store Page links to www.Shopify.com had a suggestion for ``rel="noreferrer"`` to be added to ``<a>`` link.
 This has been addressed.
 
 ### Website Testing
 
-Full website testing available in excel sheet, which is best viewed with Microsoft Excel, it can be also viewed with google docs, Apple Numbers, Open Office or Libre Office.
-Testing file can be viewed or downloaded [HERE](assets/testing/testing.xlsx).
+Full website testing available in the excel sheet, which is best viewed with Microsoft Excel, it can be also viewed with google docs, Apple Numbers, Open Office or Libre Office.
+The testing file can be downloaded and viewed [HERE](assets/testing/testing.xlsx).
+
+### User Stories Testing
+
+##### First time visitor:
+
+![Homepage](assets/testing/mockup-index.html)
+* I'd like to easily navigate the website, find and buy beeswax products.
+ * Website Structure is simply laid out in easy to understand form:
+ * Homepage - Store - About Us - Care - Contact Us
+ * Social links located at the bottom of the page.
+ * Store button on Homepage to easily navigate to store page without any distractions.
+ * Simple product description with images and Buy button bellow. 
+![Store](assets/testing/mockup-store.png)
+* I'd like to see how the products look.
+ * Large image Carousel visible on the homepage.
+ * Each different item has images on Store Page. 
+![Care](assets/testing/mockup-care.png)
+* I'd like to know how to care about my products.
+ * Navigation bar has a link to Care Page.
+ * Care instructions presented in Youtube video with easy steps to follow.
+ * Ordered list clearly and simply presented on Care page. 
+![About Us](assets/testing/mockup-about.png)
+* I'd like to know the background story of the store.
+ * About Us link available on Navigation Bar.
+ * Creators story and pictures are on About Us page. 
+![Contact Us](assets/testing/mockup-contact.png)
+* I'd like to contact the business.
+ * Contact Us pop up Modal form is available on every page in Navigation Bar.
+ * Email and Social Links are available on every page in the footer. 
+
+##### Returning visitor:
+* I'd like to easily purchase the product again.
+ * Store Button is located in the middle of Homepage.
+ * Store button located in Navigation Bar.
+* I forgot how should I care for the product and like to see care instructions.
+ * Care Instructions Located in Navigation Bar.
+* I like the product and would like to follow the store on social media.
+ * Social Links located in the footer.
